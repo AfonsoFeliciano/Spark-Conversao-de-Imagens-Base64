@@ -15,7 +15,7 @@ Em alguns casos no cenário de dados, a imagem pode ser armazenada em formato bi
 Após algumas pesquisas, o spark possui diversos formatos de leitura de imagens, como por exemplo: 
 
 ```
-park.read.format("image").load("path/to/images/")
+spark.read.format("image").load("path/to/images/")
 ```
 
 Que normalmente, retorna um schema como este: 
